@@ -1,5 +1,6 @@
 def starts_with_a_vowel?(word)
  
+<<<<<<< HEAD
 if word.match(/\b[aeiouAEIOU]\w*/) 
   return true 
 else
@@ -9,6 +10,9 @@ end
   
   
   
+=======
+word.scan(/[aeiou]/)
+>>>>>>> 6d1dcdff8e35d26a15b5902952de713617af5bf5
  
 
  
